@@ -1,0 +1,31 @@
+
+
+/*presentacion*/
+.presentation{
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .presentation-text{
+    text-align: center;
+  }
+  
+  .presentation-img{
+    width: 150px;
+    height: 150px;
+  }
+
+  
+  .btnHover{
+    transition: .2s all;
+  }
+
+  .btnHover:hover{
+    background-color: #49a7ff;
+    font-weight: bold;
+    border-radius: 10px;
+    transform: translateY(-8px);
+  }
+
+  
+

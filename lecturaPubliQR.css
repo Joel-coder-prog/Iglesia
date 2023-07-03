@@ -1,0 +1,118 @@
+.presentation-title{
+    font-size: 30px;
+  }
+
+  @media screen and (max-width:375px){
+    .presentation-title{
+      font-size: 25px;
+    }
+
+
+    .presentation-title-QR{
+        font-size: 23px;
+    }
+  }
+  
+  @media screen and (max-width:280px){
+    .presentation-title{
+      font-size: 23px;
+    }
+
+    .presentation-text{
+      font-size: 14px;
+    }
+  }
+
+.container_lectura{
+	max-width: 80%;
+	width: 400px;
+	margin: 80px auto;
+}
+
+.formulario input[type="text"]{
+	padding: 20px;
+	border: none;
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .buttonQR {
+	width: 100%;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .buttonQR {
+	background:  #21b84e;
+}
+
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ .versiculo{
+    height: 250px;
+    padding: 15px;
+    background-color: #00a8c5;
+}
+
+.versiculo .versiculo-contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Unbounded', cursive;
+} 
+
+.texto{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Unbounded', cursive;
+}
+
+@media screen and (max-width:360px){
+    .titulo{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:280px){
+    .titulo{
+        font-size: 25px;
+    }
+
+    .texto{
+        font-size: 13px;
+    }
+
+}
+
